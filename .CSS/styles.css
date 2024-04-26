@@ -183,9 +183,9 @@ footer{
     color: rgba(255, 255, 255, 0.6);
 }
 :root{
-    --background-color: rgba(47, 48, 58, 1); 
-    --background-color: rgba(245, 244, 250, 1);
+    --main-background-color: rgba(47, 48, 58, 1); 
+    --second-background-color: rgba(245, 244, 250, 1);
     --background-button-color:: rgba(33, 150, 243, 1);
     --text-color: rgba(117, 117, 117, 1);
-    --text-color: rgba(33, 33, 33, 1);
+    --nav-and-title-text-color: rgba(33, 33, 33, 1);
 }
