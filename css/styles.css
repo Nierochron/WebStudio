@@ -6,17 +6,21 @@
     --secondary-text-color: rgba(117, 117, 117, 1);
     --white-color: rgba(255, 255, 255, 1);
 }
+/*              header                */
 .logo{
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
     font-size: 26px;
 }
 .nav{
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     font-size: 14px;
     color: rgba(33, 33, 33, 1)
 }
 .nav2{
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     font-size: 14px;
     color: rgba(117, 117, 117, 1)
@@ -28,165 +32,119 @@
     background-color: rgba(47, 48, 58, 1);
 }
 .h1{
-    position: absolute;
-    height: 20%;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -32%);
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
     line-height: 60px;
     width: 696px;
     height: 120px;
     font-size: 44px;
-    text-align: center;
     color: rgba(255, 255, 255, 1);
 }
 .Btn-ЗАМОВИТИ-ПОСЛУГУ{
+    font-family: "Roboto", sans-serif;
     width: 216px;
     height: 50px;
-    top: 430px;
-    left: 692px;
-    gap: 0px;
-    border-radius: 12px 1px 1px 4px;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: rgba(255, 255, 255, 1);
     background-color: rgba(33, 150, 243, 1);
 }
-
+/*              all             */
 .ghost{
-    color: rgba(0, 0, 0, 0);
+    list-style-type: none;
 }
+/*              main                */
 .p-From-The-h3-Homepage-Section-Three{
+    font-family: "Roboto", sans-serif;
     width: 270px;
     height: 48px;
-    top: 800px;
-    left: 815px;
-    gap: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: left;
     color: rgba(117, 117, 117, 1);
 }
 .h3-Homepage-Section-Two{
+    font-family: "Roboto", sans-serif;
     width: 270px;
     height: 16px;
-    top: 774px;
-    left: 215px;
-    gap: 0px;
     font-size: 14px;
     font-weight: 700;
     line-height: 16.41px;
-    letter-spacing: 0.03em;
-    text-align: left;
     color: rgba(33, 33, 33, 1);
 }
 .h2-Homepage-Section-Three{
+    font-family: "Roboto", sans-serif;
     width: 366px;
     height: 42px;
-    top: 966px;
-    left: 617px;
-    gap: 0px;
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
-    letter-spacing: 0.03em;
-    text-align: center;
     color: rgba(33, 33, 33, 1);
 }
 .pictures-homepage-section-three{
     width: 370px;
     height: 294px;
-    top: 1058px;
-    left: 615px;
-    gap: 0px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-.ghost{
-    color: rgba(0, 0, 0, 0);
 }
 .h2-homepage-section-four{
+    font-family: "Roboto", sans-serif;
     width: 264px;
     height: 42px;
-    top: 1540px;
-    left: 668px;
-    gap: 0px;
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
-    letter-spacing: 0.03em;
-    text-align: center;
     color: rgba(33, 33, 33, 1)
 }
 .pictures-homepage-section-four{
-    
     width: 270px;
     height: 260px;
-    top: 1632px;
-    left: 215px;
-    gap: 0px;
 }
 .name-worker-section-four-homepage{
+    font-family: "Roboto", sans-serif;
     width: 129px;
     height: 19px;
-    top: 1922px;
-    left: 286px;
-    gap: 0px;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
-    letter-spacing: 0.03em;
-    text-align: center;
     color: rgba(33, 33, 33, 1);
 }
 .work-section-four-homepage{
+    font-family: "Roboto", sans-serif;
     width: 147px;
     height: 19px;
-    top: 1951px;
-    left: 577px;
-    gap: 0px;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
-    letter-spacing: 0.03em;
-    text-align: center;
     color: rgba(117, 117, 117, 1);
 }
+/*              footer                */
 footer{
     background-color: rgba(47, 48, 58, 1);
 }
 .footer-Nav-street{
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     width: 231px;
     height: 21px;
-    top: 2205px;
-    left: 215px;
-    gap: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: left;
     color: rgba(255, 255, 255, 1);
 }
 .footer-Nav-email-and-tel{
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     width: 231px;
     height: 21px;
-    top: 2205px;
-    left: 215px;
-    gap: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: left;
     color: rgba(255, 255, 255, 0.6);
+}
+/*              portfolio                */
+.portfolio--button{
+    font-family: "Roboto", sans-serif;
+}
+.portfolio--h3{
+    font-family: "Roboto", sans-serif;
+}
+.portfolio--p{
+    font-family: "Roboto", sans-serif;
 }
