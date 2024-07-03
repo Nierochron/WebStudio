@@ -12,52 +12,70 @@
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
     font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
 .nav{
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+    width: 64px;
+    height: 16px;
+    weight: 500;
+    line-height: 16.41px;
     font-size: 14px;
     color: rgba(33, 33, 33, 1)
 }
 .nav2{
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+    width: 64px;
+    height: 16px;
+    weight: 500;
+    line-height: 16.41px;
     font-size: 14px;
     color: rgba(117, 117, 117, 1)
-}
-.Section-One-Homepage{
-    width: 1600px;
-    height: 600px;
-    top: 80px;
-    background-color: rgba(47, 48, 58, 1);
-}
-.h1{
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    line-height: 60px;
-    width: 696px;
-    height: 120px;
-    font-size: 44px;
-    color: rgba(255, 255, 255, 1);
-}
-.Btn-ЗАМОВИТИ-ПОСЛУГУ{
-    font-family: "Roboto", sans-serif;
-    width: 216px;
-    height: 50px;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(33, 150, 243, 1);
 }
 /*              all             */
 .ghost{
     list-style-type: none;
 }
 /*              main                */
+.Section-One-Homepage{
+    width: 1600px;
+    height: 600px;
+
+    background-color: rgba(47, 48, 58, 1);
+}
+.h1{
+    font-family: "Roboto", sans-serif;
+
+    width: 696px;
+    height: 120px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.Btn-ЗАМОВИТИ-ПОСЛУГУ{
+    font-family: "Roboto", sans-serif;
+    width: 216px;
+    height: 50px;
+    weight: 700;
+    size: 16px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1);
+}
+
 .p-From-The-h3-Homepage-Section-Three{
     font-family: "Roboto", sans-serif;
     width: 270px;
-    height: 48px;
-    font-size: 14px;
-    font-weight: 400;
+    height: 72px;
+    size: 14px;
+    weight: 400;
     line-height: 24px;
     color: rgba(117, 117, 117, 1);
 }
@@ -65,8 +83,9 @@
     font-family: "Roboto", sans-serif;
     width: 270px;
     height: 16px;
+    Weight: 700px;
     font-size: 14px;
-    font-weight: 700;
+
     line-height: 16.41px;
     color: rgba(33, 33, 33, 1);
 }
@@ -74,9 +93,10 @@
     font-family: "Roboto", sans-serif;
     width: 366px;
     height: 42px;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42.19px;
+    weight: 700;
+    size: 36px;
+    Line-height: 42.19px;
+    size: 36px;
     color: rgba(33, 33, 33, 1);
 }
 .pictures-homepage-section-three{
@@ -87,8 +107,8 @@
     font-family: "Roboto", sans-serif;
     width: 264px;
     height: 42px;
-    font-size: 36px;
-    font-weight: 700;
+    size: 36px;
+    weight: 700;
     line-height: 42.19px;
     color: rgba(33, 33, 33, 1)
 }
@@ -100,8 +120,8 @@
     font-family: "Roboto", sans-serif;
     width: 129px;
     height: 19px;
-    font-size: 16px;
-    font-weight: 500;
+    size: 16px;
+    weight: 500;
     line-height: 18.75px;
     color: rgba(33, 33, 33, 1);
 }
@@ -109,8 +129,8 @@
     font-family: "Roboto", sans-serif;
     width: 147px;
     height: 19px;
-    font-size: 16px;
-    font-weight: 400;
+    size: 16px;
+    weight: 400;
     line-height: 18.75px;
     color: rgba(117, 117, 117, 1);
 }
@@ -123,8 +143,8 @@ footer{
     text-decoration: none;
     width: 231px;
     height: 21px;
-    font-size: 14px;
-    font-weight: 400;
+    size: 14px;
+    weight: 400;
     line-height: 24px;
     color: rgba(255, 255, 255, 1);
 }
@@ -133,18 +153,27 @@ footer{
     text-decoration: none;
     width: 231px;
     height: 21px;
-    font-size: 14px;
-    font-weight: 400;
+    size: 14px;
+    weight: 400;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
 }
 /*              portfolio                */
 .portfolio--button{
     font-family: "Roboto", sans-serif;
+    width: 103px;
+    height: 38px;
+    weight: 500px;
+    size: 16px;
+    line-height: 26px;
 }
 .portfolio--h3{
     font-family: "Roboto", sans-serif;
+    weight: 700;
+    size: 18px;
 }
 .portfolio--p{
     font-family: "Roboto", sans-serif;
+    weight: 400;
+    size: 16px;
 }
