@@ -27,7 +27,7 @@ body{
 .header-contacts{
     list-style-type: none;
 }
-.header-nav-link{
+.nav-link{
     color: rgba(33, 33, 33, 1);
     text-decoration: none;
     font-weight: 500px;
@@ -86,7 +86,7 @@ body{
     font-size: 14px;
     line-height: 24px;
 }
-.our-work{
+.work-title{
     color: rgba(33, 33, 33, 1);
     font-weight: 700px;
     font-size: 36px;
@@ -105,20 +105,20 @@ body{
     font-size: 36px;
     line-height: 42.19px;
 }
-.team-worker{
+.team-list{
     list-style-type: none;
 }
-.team-worker-pictures{
+.team-photo{
     width: 270px;
     height: 260px;
 }
-.team-worker-name{
+.team-name{
     color: rgba(33, 33, 33, 1);
     font-weight: 500px;
     font-size: 16px;
     line-height: 18.75px;
 }
-.team-work-name{
+.team-description{
     color: rgba(117, 117, 117, 1);
     font-weight: 400px;
     font-size: 16px;
@@ -138,7 +138,7 @@ body{
     line-height: 30.52px;
     text-decoration: none;
 }
-.footer-list{
+.footer-contacts{
     list-style-type: none;
 }
 .footer-street{
@@ -148,7 +148,7 @@ body{
     line-height: 24px;
     text-decoration: none;
 }
-.footer-email-and-tel{
+.contacts-link{
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400px;
     font-size: 14px;
@@ -172,7 +172,7 @@ body{
     background-color: rgba(33, 150, 243, 1);
     color: rgba(255, 255, 255, 1);
 }
-.portfolio-card{
+.portfolio-cards{
     list-style-type: none;
 }
 .portfolio-subtitle{
