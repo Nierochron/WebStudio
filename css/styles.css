@@ -34,17 +34,17 @@ body{
     font-size: 14px;
     line-height: 16.41px;
 }
-.header-nav-link:hover{
+.nav-link:hover{
     color: rgba(33, 150, 243, 1);
 }
-.header-contacts-element{
+.header-contacts-link{
     color: rgba(117, 117, 117, 1);
     text-decoration: none;
     font-weight: 500px;
     font-size: 14px;
     line-height: 16.41px;
 }
-.header-contacts-element:hover{
+.header-contacts-link:hover{
     color: rgba(33, 150, 243, 1);
 }
     /* main */
