@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -19,18 +21,23 @@
     <!--  заголовок  -->
     <header class="header">
         <!-- лого і навігація -->
-        <a href="#" class="header-logo"><span class="blue">Web</span>Studio</a>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-element"><a href="#" class="nav-link">Студія</a></li>
-                <li class="nav-element"><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
-                <li class="nav-element"><a href="#" class="nav-link">Контакти</a></li>
-            </ul>
+        <div class="container header-container">
+            <a href="#" class="logo header-logo"><span class="blue">Web</span>Studio</a>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-element"><a href="#" class="nav-link">Студія</a></li>
+                    <li class="nav-element"><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
+                    <li class="nav-element"><a href="#" class="nav-link">Контакти</a></li>
+                </ul>
+            </nav>
             <ul class="header-contacts">
-                <li class="contacts-element"><a href="mailto:info@devstudio.com" class="header-contacts-link">info@devstudio.com</a></li>
-                <li class="contacts-element"><a href="tel:+380961111111" class="header-contacts-link">+38 096 111 11 11</a></li>
+                <li class="contacts-element">
+                    <a href="mailto:info@devstudio.com" class="header-contacts-link">info@devstudio.com</a>
+                </li>
+                <li class="contacts-element"><a href="tel:+380961111111" class="header-contacts-link">+38 096 111 11
+                        11</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <!--  main  -->
     <main>
@@ -44,56 +51,133 @@
                 <li class="portfolio-btn-item"><button type="button" class="portfolio-button">Маркетинг</button></li>
             </ul>
             <ul class="portfolio-cards">
-                <li class="portfolio-element"><img src="pictures/portfolio1.png" alt="Техноряк">
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio1.png" alt="Техноряк" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Техноряк</h3>
                     <p class="portfolio-text">Веб-сайт</p>
+                    </div>
                 </li>
-                <li class="portfolio-element"><img src="pictures/portfolio2.png" alt="Постер New Orlean vs Golden Star">
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio2.png" alt="Постер New Orlean vs Golden Star" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Постер New Orlean vs Golden Star</h3>
                     <p class="portfolio-text">Дизайн</p>
+                    </div>
                 </li>
-                <li class="portfolio-element"><img src="pictures/portfolio3.png" alt="Лого ресторану">
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio3.png" alt="Лого ресторану" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Ресторан Seafood</h3>
                     <p class="portfolio-text">Додаток</p>
-                <li class="portfolio-element"><img src="pictures/portfolio4.png" alt="Проєкт Prime">
+                    </div>
+                </li>
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio4.png" alt="Проєкт Prime" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Проєкт Boxes</h3>
                     <p class="portfolio-text">Маркетинг</p>
+                    <div>
                 </li>
-                <li class="portfolio-element"><img src="pictures/portfolio5.png" alt="Проєкт Boxes">
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio5.png" alt="Проєкт Boxes" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Проєкт Boxes</h3>
                     <p class="portfolio-text">Додаток</p>
+                    </div>
                 </li>
-                <li class="portfolio-element"><img src="pictures/portfolio6.png" alt="Inspiration has no Borders">
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio6.png" alt="Inspiration has no Borders" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Inspiration has no Borders</h3>
                     <p class="portfolio-text">Веб-сайт</p>
+                    <div>
                 </li>
-                <li class="portfolio-element"><img src="pictures/portfolio7.png" alt="Видання Limited Edition">
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio7.png" alt="Видання Limited Edition" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Видання Limited Edition</h3>
                     <p class="portfolio-text">Дизайн</p>
+                    </div>
                 </li>
-                <li class="portfolio-element"><img src="pictures/portfolio8.png" alt="Проєкт LAB">
+                <li class="portfolio-element">
+                    <a href="#" class="content__link">
+                    <div class="portfolio-overley-content">
+                    <img src="./pic/pictures/portfolio8.png" alt="Проєкт LAB" style="width: 370px; height: 294px;">
+                    <p class="portfolio-text-overley">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                    </div>
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Проєкт LAB</h3>
                     <p class="portfolio-text">Маркетинг</p>
+                    </div>
                 </li>
-                <li class="portfolio-element"><img src="pictures/portfolio9.png" alt="Growing Business">
+                <li class="portfolio-element"><img src="./pic/pictures/portfolio9.png" alt="Growing Business" style="width: 370px; height: 294px;">
+                    <div class="portfolio-element-text">
                     <h3 class="portfolio-subtitle">Growing Business</h3>
                     <p class="portfolio-text">Додаток</p>
+                    </div>
                 </li>
             </ul>
         </section>
     </main>
     <!--  підвал  -->
     <footer class="footer">
-        <!-- лого і навігація, та розташування -->
-        <a href="#" class="footer-logo"><span class="blue">Web</span>Studio</a>
-        <address>
-            <ul class="footer-contacts">
-                <li><a href="https://www.google.com.ua/maps" class="footer-street">м. Київ, пр-т Лесі Українки, 26</a>
-                </li>
-                <li><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-logo-info">
+                    <a href="./index.html" class="logo footer-logo">
+                        <span class="blue">Web</span>Studio</a>
+                    <address>
+                        <ul>
+                            <li class="footer-text">м. Київ, пр-т Лесі Українки, 26</li>
+                            <li class="footer-contact"><a href="mailto:info@devstudio.com"
+                                    class="footer-contact">info@devstudio.com</a>
+                            </li>
+                            <li><a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-joined">приєднуйтесь</h3>
+                    <ul class="social-icons social-icons--indent">
+                        <li class="social-icons-list">
+                            <a href="#" class="social-icons-link social-icons-link--color">
+                                <svg class="social-icons-icon" width="20px" height="20px">
+                                    <use href="./pic/icons.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-icons-list">
+                            <a href="#" class="social-icons-link social-icons-link--color">
+                                <svg class="social-icons-icon social-icons--color" width="20px" height="20px">
+                                    <use href="./pic/icons.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-icons-list">
+                            <a href="#" class="social-icons-link social-icons-link--color">
+                                <svg class="social-icons-icon social-icons--color" width="20px" height="20px">
+                                    <use href="./pic/icons.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-icons-list">
+                            <a href="#" class="social-icons-link social-icons-link--color">
+                                <svg class="social-icons-icon social-icons--color" width="20px" height="20px">
+                                    <use href="./pic/icons.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <form class="from-subscribe">
+                <b class="footer-subscribe">Підпишіться на розсилку</b>
+                <div class="form-subscribe-field">
+                    <label for="name"></label>
+                    <input class="form-subscribe-input" type="email" placeholder="E-mail">
+                    <button type="submit" class="form-subscribe-button">Підписатися
+                        <svg class="form-subscribe-icon" width="24px" height="24px">
+                            <use href="./pic/icons.svg#send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
     </footer>
 </body>
 
