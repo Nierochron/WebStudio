@@ -19,8 +19,10 @@ body {
 }
 
 /* header */
-.header-container {
+.header{
   padding: 24px 0;
+}
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -228,7 +230,6 @@ body {
 .team-item {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-  margin-bottom: 94px;
   background-color: var(--white-color);
 }
 
