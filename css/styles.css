@@ -105,13 +105,14 @@ body {
 }
 
 .hero-title {
+  width: 696px; 
+  margin: 0 auto 30px auto;
   color: var(--white-color);
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -344,7 +345,7 @@ body {
 .footer {
   background-color: var(--primary-background-color);
   color: var(--white-color);
-  padding: 60px 215px 60px 215px;
+  padding: 60px 0;
 }
 
 
@@ -354,7 +355,7 @@ body {
 }
 
 
-  .footer .container {
+.footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -897,4 +898,66 @@ body {
   background-color: var(--color-accent);
   color: var(--white-color);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+.sidebar-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  padding: 20px;
+  transform: translateX(-75%);
+  background-color: var(--primary-background-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-menu:hover{
+  transform: translateX(0);
+}
+
+.menu-box{
+  margin: 30px 15px 0 0;
+}
+
+.menu-item:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.menu-link{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: var(--white-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-link:hover{
+  color: rgb(255, 166, 0);
+}
+
+.menu-link:before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  background-color: rgb(255, 166, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.menu-text{
+  text-align: center;
+  writing-mode: vertical-rl;
+  font-size: 18px;
+  margin-left: 25px;
+  opacity: 1;
+  color: var(--white-color);
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-menu:hover .menu-text{
+  opacity: 0;
 }
