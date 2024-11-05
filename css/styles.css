@@ -357,9 +357,6 @@ body {
 
 .footer-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     align-items: baseline;
   }
 
