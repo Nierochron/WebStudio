@@ -486,6 +486,9 @@ body {
   font-size: 16px;
   color: var(--white-color);
 }
+.no-scroll {
+  overflow: hidden;
+}
 
   .form-subscribe-input {
     width: 450px;
@@ -525,6 +528,23 @@ body {
   letter-spacing: 0.96px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-subscribe-button:hover {
+  animation: scaleAndreturn 1s ease-in-out;
+}
+
+@keyframes scaleAndreturn {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
 }
 
 .form-subscribe-icon {
@@ -536,13 +556,11 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 93px 15px;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {
@@ -560,10 +578,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  max-width: 450px;
-  max-height: 609px;
-  width: 100%;
-  height: 100%;
+  max-width: 528px;   
+  max-height: 581px;
   background-color: var(--white-color);
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -590,11 +606,6 @@ body {
   outline: none;
 }
 
-.modal-button:hover,
-.modal-button:focus {
-  fill: var(--color-accent);
-}
-
 .modal-button:hover .modal-img,
 .modal-button:focus .modal-img {
   fill: var(--color-accent);
@@ -617,9 +628,6 @@ body {
 }
 
 .modal-form {
-  outline: 1px rgba(33, 33, 33, 0.2);
-  margin-left: auto;
-  margin-right: auto;
   padding: 40px;
   background: var(--white-color);
 }
@@ -631,11 +639,14 @@ body {
 }
 
 .modal-label {
+  color: var(--primary-text-color); 
+  font-size: 12px; 
+  font-weight: 400; 
+  letter-spacing: 0.12px;
   margin-bottom: 4px;
-  color: var(--secondary-text-color);
 }
 
-.modal-input {
+.input-box {
   position: relative;
 }
 
@@ -649,8 +660,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-text {
-  margin: 0;
+.modal-input {
   height: 40px;
   width: 100%;
   padding-top: 11px;
@@ -664,28 +674,28 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-text:hover,
-.modal-text:focus {
+.modal-input:hover,
+.modal-input:focus {
   border: 1px solid var(--color-accent);
 }
 
-.modal-text:hover,
-.modal-text:active {
+.modal-input:hover,
+.modal-input:active {
   fill: var(--color-accent);
 }
 
-.modal-text:hover+.modal-icon,
-.modal-text:active+.modal-icon {
+.modal-input:hover+.modal-icon,
+.modal-input:active+.modal-icon {
   fill: var(--color-accent);
 }
 
-.modal-text:focus,
-.modal-text:active {
+.modal-input:focus,
+.modal-input:active {
   fill: var(--color-accent);
 }
 
-.modal-text:focus+.modal-icon,
-.modal-text:active+.modal-icon {
+.modal-input:focus+.modal-icon,
+.modal-input:active+.modal-icon {
   fill: var(--color-accent);
 }
 
@@ -796,16 +806,21 @@ body {
   justify-content: center;
 }
 
-.policy-submit {
+.button-submit {
   display: inline-block;
   text-align: center;
   padding: 10px 55px;
   min-width: 200px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  background-color: var(--color-accent);
+  color: var(--white-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.policy-submit:hover,
-.policy-submit:focus {
+.button-submit:hover,
+.button-submit:focus {
+  background-color: var(--white-color);
+  color: var(--primary-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
