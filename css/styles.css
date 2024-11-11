@@ -842,6 +842,11 @@ body {
 }
 
 /* portfolio */
+
+.portfolio{
+  padding: 94px 0;
+}
+
 .portfolio-title {
   display: none;
 }
@@ -852,9 +857,9 @@ body {
   row-gap: 32px;
   column-gap: 30px;
   width: 100%;
+  margin-top: 50px;
   background-color: var(--white-color);
   border: 1px solid #EEEEEE;
-  margin: 94px 0 56px;
 }
 .portfolio-element{
   flex-basis: calc((100% - 410px) / 3);
@@ -877,10 +882,7 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  padding: 77px 24px;
-  display: flex;
-  align-items: center;
-  margin: 0 0;
+  padding: 63px 24px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
@@ -915,7 +917,6 @@ body {
 .portfolio-button-list{
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   gap: 10px; 
 }
 .portfolio-button {
